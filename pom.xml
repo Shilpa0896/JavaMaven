@@ -6,7 +6,6 @@
 
   <groupId>sample</groupId>
   <artifactId>maven</artifactId>
-  <packaging>war</packaging>
   <version>java-maven</version>
 
   <name>maven</name>
