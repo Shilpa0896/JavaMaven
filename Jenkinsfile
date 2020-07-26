@@ -13,14 +13,5 @@ pipeline{
                 bat 'mvn clean compile'
             }
         }
-        stage("code quality"){
-           
-            def scannerhome=tool "sonar-scanner";
-             steps{
-                  withSonarQubeEnv('sonar-server') {
-                 sh 'mvn clean package sonar:sonar'
-           }
-        }
-     }
  }
 }
