@@ -14,10 +14,10 @@ pipeline{
             }
         }
         stage("code quality"){
-     def scannerhome=tool "sonar-scanner";
-    withSonarQubeEnv('sonar-server') {
-        sh 'mvn clean package sonar:sonar'
-    }
+             def scannerhome=tool "sonar-scanner";
+              withSonarQubeEnv('sonar-server') {
+            sh 'mvn clean package sonar:sonar'
+           }
         }
-}
-}
+     }
+ }
