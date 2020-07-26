@@ -1,4 +1,5 @@
-pipeline {
+pipeline{
+    
     agent any
     stages {
         stage('Checkout') {
@@ -17,5 +18,5 @@ pipeline {
     withSonarQubeEnv('sonar-server') {
         sh 'mvn clean package sonar:sonar'
     }
-    }
-    }
+        }
+}
