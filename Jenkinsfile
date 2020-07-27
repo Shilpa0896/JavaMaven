@@ -11,7 +11,7 @@ pipeline {
                withSonarQubeEnv('sonar-server') {
               sh 'mvn clean package sonar:sonar'
                  }
-        }
+            }
         
-    }
-}
+      }
+
