@@ -19,5 +19,12 @@ node {
        nexusArtifactUploader artifacts: [[artifactId: 'maven', classifier: '', file: '/var/lib/jenkins/workspace/ScriptedPipeline/target/maven-1.0.0.jar', type: 'jar']], credentialsId: 'Nexus', groupId: 'sample', nexusUrl: '3.21.98.199:8081/', nexusVersion: 'nexus3', protocol: 'http', repository: 'myrepo', version: '1.0.0'
         }
    }
+post {
+        always {
+            emailext body: 'This is a test email', subject: 'Test email', to: 'shilpadabgar@gmail.com'
+        }
+    }
+}
+
 
    
