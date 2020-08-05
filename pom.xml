@@ -3,7 +3,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+<<<<<<< HEAD
 	  <!--hello -->
+=======
+  <!-- hello hh hhjjj -->
+
+>>>>>>> f027b2b255c51eda6ce3f20f1ec8fd2eeadb66c7
   <groupId>sample</groupId>
   <artifactId>maven</artifactId>
   <version>1.0.0</version>
